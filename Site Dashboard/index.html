@@ -1,0 +1,1215 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Título do Site -->
+    <title> Grupo Stock It - Dashboard</title>
+
+    <!-- Estilos -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,600,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700,700i" rel="stylesheet">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/fontawesome-all.css" rel="stylesheet">
+    <link href="css/swiper.css" rel="stylesheet">
+    <link href="css/magnific-popup.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
+
+    <!-- Favicon  -->
+    <link rel="icon" href="images/favicon.png">
+
+    
+</head>
+
+<body data-spy="scroll" data-target=".fixed-top">
+
+    <!-- Animação de Carregando -->
+    <div class="spinner-wrapper">
+        <div class="spinner">
+            <div class="bounce1"></div>
+            <div class="bounce2"></div>
+            <div class="bounce3"></div>
+        </div>
+    </div>
+
+
+    <!-- Menu -->
+    <nav class="navbar navbar-expand-md navbar-dark navbar-custom fixed-top">
+
+
+        <!-- Logotipo -->
+        <a class="navbar-brand logo-image" href="index.html"><img src="images/logo.png" alt="Logotipo do Stock It"></a>
+
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault"
+            aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-awesome fas fa-bars"></span>
+            <span class="navbar-toggler-awesome fas fa-times"></span>
+        </button>
+
+
+        <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link page-scroll" href="#header">INICIO<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link page-scroll" href="#features">FUNCIONALIDADES</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link page-scroll" href="#preview">FERRAMENTAS</a>
+                </li>
+
+                <!-- Dropdown Menu -->
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle page-scroll" href="#details" id="navbarDropdown" role="button"
+                        aria-haspopup="true" aria-expanded="false">DETALHES</a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="documentacao.html"><span
+                                class="item-text">DOCUMENTAÇÃO</span></a>
+                        <div class="dropdown-items-divide-hr"></div>
+                        <a class="dropdown-item" href="https://stockitapp.netlify.app/envolvidos.html"><span class="item-text">ENVOLVIDOS</span></a>
+                    </div>
+                </li>
+
+
+                <li class="nav-item">
+                    <a class="nav-link page-scroll" href="#contact">E-MAIL</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+
+    <!-- Cabeçalho -->
+    <header id="header" class="header">
+        <div class="header-content">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="text-container">
+                            <h1>STOCK IT ADMINS <br>PARA <span id="js-rotating">PLANOS, ANÁLISES, DECISÕES</span></h1>
+                            <p class="p-large">Use o Dashboard junto com o Aplicativo Stock It e garanta um panorâma de
+                                detalhes e dados pertinentes.</p>
+                            <a class="btn-solid-lg page-scroll" href="https://stockitapp.netlify.app">APLICATIVO</a>
+                            <a class="btn-solid-lg page-scroll"
+                                href="https://stockitadmins.netlify.app">DASHBOARD</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="image-container">
+                            <img class="first-image " src="images/header-iphone.png" alt="alternative">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+
+
+
+
+    <!-- Vantagens -->
+    <div class="slider-1">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+
+
+                    <div class="container w3-center">
+                        <h2>DASHBOARD</h2>
+                        <div class="p-heading p-large">Logo na página inicial você encontra os principais indicadores:
+                        </div>
+                    </div>
+
+
+
+                    <!-- Slide de Informações -->
+                    <div class="slider-container">
+                        <div class="swiper-container card-slider">
+                            <div class="swiper-wrapper">
+
+                                <!-- Slide -->
+                                <div class="swiper-slide">
+                                    <div class="card">
+                                        <img class="card-image" src="images/tip-1.jpg" alt="Fácil">
+                                        <div class="card-body">
+                                            <p class="testimonial-text">Total de entradas no estoque através do App em
+                                                um período determinado por você.</p>
+                                            <p class="testimonial-author">Entradas</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+
+                                <div class="swiper-slide">
+                                    <div class="card">
+                                        <img class="card-image" src="images/tip-2.jpg" alt="Controle">
+                                        <div class="card-body">
+                                            <p class="testimonial-text">Total de saídas do estoque através do App em um
+                                                período determinado por você.</p>
+                                            <p class="testimonial-author">Saídas</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- Slide -->
+                                <div class="swiper-slide">
+                                    <div class="card">
+                                        <img class="card-image" src="images/tip-3.jpg" alt="Prático">
+                                        <div class="card-body">
+                                            <p class="testimonial-text">Total de retornos de mercadoria ao estoque e
+                                                vencimendo de mercadorias cadastradas no App.</p>
+                                            <p class="testimonial-author">Retorno e Vencimentos</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- Slide -->
+                                <div class="swiper-slide">
+                                    <div class="card">
+                                        <img class="card-image" src="images/tip-4.jpg" alt="Organização">
+                                        <div class="card-body">
+                                            <p class="testimonial-text">Número de mercadorias em excesso e mercadorias
+                                                faltando dentro do seu estoque.</p>
+                                            <p class="testimonial-author">Excesso e Escassez</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- Slide -->
+                                <div class="swiper-slide">
+                                    <div class="card">
+                                        <img class="card-image" src="images/tip-5.jpg" alt="Prevenção">
+                                        <div class="card-body">
+                                            <p class="testimonial-text">Veja quantos pedidos você já fez e quantos
+                                                fornecedores estão relacionados com esses pedidos.</p>
+                                            <p class="testimonial-author">Pedidos a Fornecedores </p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- Slide -->
+                                <div class="swiper-slide">
+                                    <div class="card">
+                                        <img class="card-image" src="images/tip-6.jpg" alt="Prevenção de Excassez">
+                                        <div class="card-body">
+                                            <p class="testimonial-text">Você consegue ver o número total de mercadorias
+                                                cadastradas no aplicativo.</p>
+                                            <p class="testimonial-author">Total de Mercadorias</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Setas Dos Slides-->
+                            <div class="swiper-button-next"></div>
+                            <div class="swiper-button-prev"></div>
+
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Funcionalidades -->
+    <div id="features" class="tabs">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h2 class="w3-animate-opacity">FUNCIONALIDADES</h2>
+                    <div class="p-heading p-large">O dashboard é divido por seções, onde cada uma é dedicada para um
+                        determinado afazer dentro do comércio.</div>
+                </div>
+            </div>
+            <div class="row">
+
+                <!-- Barra de Links -->
+                <ul class="nav nav-tabs" id="#" role="tablist">
+                    <li class="nav-item">
+                        <a class="nav-link active" id="nav-tab-1" data-toggle="tab" href="#tab-1" role="tab"
+                            aria-controls="tab-1" aria-selected="true"><i class="fas fa-home"></i>DASHBOARD</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="nav-tab-2" data-toggle="tab" href="#tab-2" role="tab"
+                            aria-controls="tab-2" aria-selected="false"><i class="fas fa-chart-line"></i>ANÁLISES</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="nav-tab-3" data-toggle="tab" href="#tab-3" role="tab"
+                            aria-controls="tab-3" aria-selected="false"><i class="fas fa-dollar-sign"></i>FINANCEIRO
+                    </li></a>
+                    </li>
+                </ul>
+
+
+
+
+                <div class="tab-content" id="#">
+
+                    <!-- Informações -->
+                    <div class="tab-pane fade show active" id="tab-1" role="tabpanel" aria-labelledby="tab-1">
+                        <div class="container">
+                            <div class="row">
+
+                                <!-- Informações Tela de Resgistros -->
+                                <div class="col-lg-6">
+                                    <div class="card right-pane first">
+                                        <div class="card-body">
+                                             <div class="card-icon">
+                                                <i class="fas fa-donate"></i>
+                                            </div>
+                                            <div class="text-wrapper">
+                                                <h4 class="card-title">Retornos e Custos</h4>
+                                                <p>Através de gráficos dinâmicos veja o balanço de seu retorno
+                                                    financeiro no período selecionado. Também é possível ver o quanto
+                                                    gastou em mercadorias no período selecionado.</p>
+                                            </div>
+                                           
+                                        </div>
+                                    </div>
+                                    <div class="card right-pane">
+                                        <div class="card-body">
+                                            <div class="card-icon">
+                                                <i class="fas fa-clipboard-list"></i>
+                                            </div>
+                                            <div class="text-wrapper">
+                                                <h4 class="card-title">Pedidos Pendentes</h4>
+                                                <p>Com as tabelas da página inicial, você visualiza detalhes dos pedidos
+                                                    feitos aos fornecedores e a situação atual destes. Os pedidos podem
+                                                    ser cancelados ou confirmados.</p>
+                                            </div>
+                                            
+                                        </div>
+                                    </div>
+                                    <div class="card right-pane">
+                                        <div class="card-body">
+                                            <div class="card-icon">
+                                                <i class="fas fa-chart-bar"></i>
+                                            </div>
+                                            <div class="text-wrapper">
+                                                <h4 class="card-title">Balanço das Movimentações</h4>
+                                                <p>O gráfico de balanços mostra o fluxo de movimentação e eventos como
+                                                    as entradas e saídas. Com isso você consegue ter uma
+                                                    métrica da frequência mensal dos eventos.</p>
+                                            </div>
+                                            
+                                        </div>
+                                    </div>
+                                </div>
+
+
+
+
+
+
+                                <div class="col-lg-6">
+                                    <div class="card left-pane first">
+                                        <div class="card-body">
+                                           
+                                            <div class="text-wrapper">
+                                                <h4 class="card-title">Balanço de Eventos</h4>
+                                                <p>O gráfico mostra a quantidade de eventos ocorridos mensalmente, como
+                                                    por exemplo: a quantidade de mercadorias que ficaram sobrando,
+                                                    faltando ou vencidas em um mês específico.</p>
+                                            </div>
+                                             <div class="card-icon">
+                                                <i class="fas fa-chart-pie"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="card left-pane">
+                                        <div class="card-body">
+                                            
+                                            <div class="text-wrapper">
+                                                <h4 class="card-title">Movimentações</h4>
+                                                <p>Assim como no aplicativo, na plataforma você também consegue ver o
+                                                    histórico de quais mercadorias que entraram e sairam do estoque.
+                                                    Além de seus detalhes e quantidades.</p>
+                                            </div>
+                                            <div class="card-icon">
+                                                <i class="fas fa-box-open"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="card left-pane">
+                                        <div class="card-body">
+                                           
+                                            <div class="text-wrapper">
+                                                <h4 class="card-title">Localização de Calendário</h4>
+                                                <p>Essas duas seções incorporadas na página incial do Dashboard estão em
+                                                    desenvolvimento e visam concatenar com outras seções da plataforma,
+                                                    como os Lembretes + Calendário e Localização Virtual + Pendências.
+                                                </p>
+                                            </div>
+                                             <div class="card-icon">
+                                                <i class="fas fa-map-marker-alt"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                    <div class="tab-pane fade" id="tab-2" role="tabpanel" aria-labelledby="tab-2">
+                        <div class="container">
+                            <div class="row">
+
+
+                            
+
+
+
+                                <div class="col-lg-12">
+                                    <div class="text-area">
+                                        <h3>Analise com Tabelas Dinâmicas</h3>
+                                        <p>A seção de Análise conta com diversas tabelas que te entregam dados e
+                                            informações organizadamente. <br>
+                                            Essas tabelas te levam para outras partes da plataforma rapidamente e
+                                            garante uma rápida verificação da situação do aplicativo e estoque.
+
+                                        </p>
+                                    </div>
+
+                                    <div class="icon-cards-area">
+                                        <div class="card">
+                                            <div class="card-icon">
+                                                <i class="fas fa-people-carry"></i>
+                                            </div>
+                                            <div class="card-body">
+                                                <h4 class="card-title">Funcionários</h4>
+                                                <p>Nesta tabela você vê os funcionários cadastrados no Aplicativo e
+                                                    aqueles que são adicionados manualmente. Você também encontra
+                                                    detalhes desses funcionários.</p>
+                                            </div>
+                                        </div>
+                                        <div class="card">
+                                            <div class="card-icon">
+                                                <i class="fas fa-folder"></i>
+                                            </div>
+                                            <div class="card-body">
+                                                <h4 class="card-title">Pastas</h4>
+                                                <p>Através dos filtros de pesquisa das listas, com poucos ajustes você
+                                                    encontra o produto que deseja rapidamente.</p>
+                                            </div>
+                                        </div>
+                                        <div class="card">
+                                            <div class="card-icon">
+                                                <i class="fas fa-user-friends"></i>
+                                            </div>
+                                            <div class="card-body">
+                                                <h4 class="card-title">Usuários</h4>
+                                                <p>Você consegue ter o controle dos dados de cadastro ao App que os
+                                                    usuários criaram. Em breve, essa seção será mais trabalhada para a
+                                                    inclusão de ferramentas avançadas no gerenciamento dos usuários.</p>
+                                            </div>
+                                        </div>
+                                        <div class="card">
+                                            <div class="card-icon">
+                                                <i class="fas fa-sort-amount-up"></i>
+                                            </div>
+                                            <div class="card-body">
+                                                <h4 class="card-title">Carência e Volume</h4>
+                                                <p>Os parâmetros de quantidade e prazos para avisos que os usuários
+                                                    configuram no App são exibidos nessa seção ao Administrador. <br>
+                                                    Você encontra também um resumo da situação de cada pasta, podendo
+                                                    observar se há algum item da pasta em falta, sobrando ou vencido.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                    <div class="tab-pane fade" id="tab-3" role="tabpanel" aria-labelledby="tab-3">
+                        <div class="container">
+                            <div class="row">
+
+                                <div class="col-lg-12">
+                                    <div class="text-area">
+                                        <h3>Gráficos</h3>
+                                        <p>Cadastrar os preços das mercadorias nessa seção te ajudam a alimentar o
+                                            gráfico da página incial do Dashboard. Em breve, atualizações irão
+                                            disponibilizar funções mais acuradas nesta seção.</p>
+                                    </div>
+                                    <div class="icon-cards-area">
+                                        <div class="card">
+                                            <div class="card-icon">
+                                                <i class="fas fa-bullseye"></i>
+                                            </div>
+                                            <div class="card-body">
+                                                <h4 class="card-title">Finalidade</h4>
+                                                <p>A seção foi adicionada para oferecer ao Administrador a possibilidade
+                                                    de gerenciar os custos e gastos do comércio com as mercadorias.</p>
+                                            </div>
+                                        </div>
+                                        <div class="card">
+                                            <div class="card-icon">
+                                                <i class="fas fa-file-alt"></i>
+                                            </div>
+                                            <div class="card-body">
+                                                <h4 class="card-title">Cadastros</h4>
+                                                <p>Assim como quando uma mercadoria chega ao comércio, o preço de custo
+                                                    e preço de venda são inseridos manualmente dentro desta seção.
+                                                    Também será preciso inserir a quantidade da mercadoria que está
+                                                    sendo cadastrada.</p>
+                                            </div>
+                                        </div>
+                                        <div class="card">
+                                            <div class="card-icon">
+                                                <i class="fas fa-chart-area"></i>
+                                            </div>
+                                            <div class="card-body">
+                                                <h4 class="card-title">Balanço</h4>
+                                                <p>Ao inserir as informações solicitadas acima, o Dashboard te mostrará
+                                                    quantos REAIS em mercadorias você tem dentro do estoque no preço de
+                                                    venda. <br>
+                                                    Do mesmo modo, você também vê o valor total em REAIS das mercadorias
+                                                    que saíram do estoque para a área de venda, também no preço de
+                                                    venda.</p>
+                                            </div>
+                                        </div>
+                                        <div class="card">
+                                            <div class="card-icon">
+                                                <i class="fas fa-crosshairs"></i>
+                                            </div>
+                                            <div class="card-body">
+                                                <h4 class="card-title">Controle</h4>
+                                                <p>O total de mercadorias na área de venda não significa que elas foram
+                                                    vendidas, mais sim expostas aos clientes. Essas métricas te garantem
+                                                    um controle mais claro de quanto capital está investido nos produtos
+                                                    à venda e naqueles parados no estoque.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
+                                </div>
+
+
+
+
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+
+
+
+    <div id="preview" class="basic-1">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h2>MÃO NA MASSA</h2>
+                    <div class="p-heading p-large">Veja uma apresentação dinâmica do projeto desta plataforma:</div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+
+
+                    <div class="image-container">
+                        <div class="video-wrapper">
+                            <a class="popup-youtube" href="https://www.youtube.com/watch?v=UpgCXSFPsok"
+                                data-effect="fadeIn">
+                                <img class="img-fluid" src="images/thumb-video.png"
+                                    alt="Representação Escritório Stock It">
+                                <span class="video-play-button">
+                                    <span></span>
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- Tela de Notificação -->
+
+    <div id="details" class="basic-2">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8">
+                    <img class="img-fluid w3-animate-opacity" src="images/tela-notificacoes.png" alt="Notificações">
+                </div>
+                <div class="col-lg-4">
+                    <div class="notifications-box">
+                        <div class="text-container2">
+                            <h3>EVENTOS</h3>
+                            <p>Assim como no aplicativo, o Dashboard tem sua própria central de notificações e
+                                mensagens. </p>
+                            <a class="btn-solid-reg popup-with-move-anim" href="#details-lightbox-1">OPÇÕES</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+    <div class="basic-3">
+        <div class="second">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4">
+                        <div class="notifications-box">
+                            <div class="text-container2">
+                                <h3>FORNECEDORES</h3>
+                                <p>Através do Dashboard, você poderá cadastrar seus fornecedores frequentes. Assim, você
+                                    pode os contatar rapidamente e ver seus pedidos de maneira organizada.</p>
+                                <a class="btn-solid-reg popup-with-move-anim" href="#details-lightbox-2">FERRAMENTAS</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-8">
+                        <div>
+                            <img class="img-fluid" src="images/produtos.png" alt="Lista de Produtos">
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- Caixa de detalhes -->
+
+    <div id="details-lightbox-1" class="lightbox-basic zoom-anim-dialog mfp-hide">
+        <div class="row">
+            <button title="Fechar" type="button" class="mfp-close x-button">×</button>
+            
+            <div class="col-lg-12">
+                <h3>Autorização</h3>
+                <hr>
+                <p>Quando um usuário cria um perfil ou solicita a exclusão do mesmo, o Administrador poderá autorizar ou
+                    negar a ação solicitada pelo usuário através do Dashboard.
+                </p>
+                <h4>Pendências</h4>
+                <p>Em todo alerta ou notificação que chega ao Dashboard, o Admnistrador consegue adicionar uma decisão a
+                    lista de pendências.
+                    Dessa forma, ele consegue decidir qual decisão tomar posteriormente, sem esquecer aquela notificação
+                    com o tempo.
+                </p>
+                <p>O administrador pode:</p>
+                <table>
+                    <tr>
+                        <td class="icon-cell"><i class="fas fa-dolly"></i></td>
+                        <td>Solicitar a devolução de mercadorias que saíram, de volta ao estoque</td>
+                    </tr>
+                    <tr>
+                        <td class="icon-cell"><i class="fas fa-exclamation-triangle"></i></td>
+                        <td>Contestar eventos. Um alerta é enviado ao usuário com as instruções corretas</td>
+                    </tr>
+                    <tr>
+                        <td class="icon-cell"><i class="fas fa-plus"></i></td>
+                        <td>Adicionar eventos na lista de pedências para uma decisão futura</td>
+                    </tr>
+                    <tr>
+                        <td class="icon-cell"><i class="fas fa-thumbs-down"></i></td>
+                        <td>Autorizar e recusar solicitações</td>
+                    </tr>
+                    <tr>
+                        <td class="icon-cell"><i class="fas fa-thumbs-up"></i></td>
+                        <td>Aprovar ou recursar sugestões de ofertas</td>
+                    </tr>
+                    <tr>
+                        <td class="icon-cell"><i class="fas fa-mobile-alt"></i></td>
+                        <td>Contatar o fornecedor pelos avisos de escassez</td>
+                    </tr>
+                </table>
+                <a class="btn-solid-reg" href="https://stockitadmins.netlify.app/notification.html">VER SEÇÃO</a> <a
+                    class="btn-outline-reg mfp-close as-button" href="#details">VOLTAR</a>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Caixa de Ideias nos produtos -->
+    <div id="details-lightbox-2" class="lightbox-basic zoom-anim-dialog mfp-hide">
+        <div class="row">
+            <button title="Sair" type="button" class="mfp-close x-button">×</button>
+        </div>
+        <div class="col-lg-12 ideia-box">
+            <h3>Seus pedidos</h3>
+            <hr>
+            <p>Para fazer o seu pedido basta preencher os campos solicitados com as informações do pedido. Você consegue
+                encotrar campos dedicados para o detalhe dos produtos que precisa. Alguns campos são preenchidos
+                automaticamente, caso você já tenha cadastrado aquele fornecedor.
+
+            </p>
+            <h4>Acompanhamento</h4>
+            <p>Após fazer um pedido, você consegue analisar pelo Dashboard o resumo de todos os seus pedidos, os
+                forncedores envolvidos e também controla a situação, confirmando se já foi entrege ou cancelando caso o
+                pedido seja desfeito.</p>
+            <p>Um nova seção será apresentada em um desenvolvimento posterior, onde esta será dedicada totalmente ao
+                contato direto e gestão dos forncedores do comércio. <br>
+                Campos que você precisa preencher:</p>
+            <table>
+                <tr>
+                    <td class="icon-cell"><i class="fas fa-id-card"></i></td>
+                    <td>Dados do Solicitante e Remetente</td>
+                </tr>
+                <tr>
+                    <td class="icon-cell"><i class="fas fa-id-badge"></i></td>
+                    <td>Endereço e Contato do Solicitante</td>
+                </tr>
+                <tr>
+                    <td class="icon-cell"><i class="fas fa-exchange-alt"></i></td>
+                    <td>Informar se há Troca ou Devoluçõs no pedido.</td>
+                </tr>
+                <tr>
+                    <td class="icon-cell"><i class="fas fa-list"></i></td>
+                    <td>Lista das Mercadorias Necessárias e Avisos ao Fornecedor</td>
+                </tr>
+                <tr>
+                    <td class="icon-cell"><i class="fas fa-money-check-alt"></i></td>
+                    <td>Método de Pagamemento</td>
+                </tr>
+                <tr>
+                    <td class="icon-cell"><i class="fas fa-terminal"></i></td>
+                    <td>Finalização do Pedido e Intitulação para Organização</td>
+                </tr>
+            </table>
+            <a class="btn-solid-reg" href="https://stockitadmins.netlify.app/form-elements.html">VER SEÇÃO</a> <a
+                class="btn-outline-reg mfp-close as-button" href="#details">VOLTAR</a>
+        </div>
+    </div>
+    </div>
+
+
+
+    <!-- Capturas de Tela -->
+
+
+
+    <div class="slider-2">
+        <div class="container">
+            <div class="row">
+                <div class="container w3-center">
+                    <h2>SEÇÕES DO APP</h2>
+                    <div class="p-heading p-large">Veja as telas que trabalham junto com o Dashboard pelo Stock It App</div>
+                </div>
+                <div class="col-lg-12">
+
+                    <!-- Carrossel -->
+                    <div class="slider-container">
+                        <div class="swiper-container image-slider">
+                            <div class="swiper-wrapper">
+
+
+                                <div class="swiper-slide">
+                                    <a href="images/Login.png" class="popup-link" data-effect="fadeIn">
+                                        <img class="img-fluid" src="images/Login.png" alt="Tela de Login">
+                                    </a>
+                                </div>
+
+                                <div class="swiper-slide">
+                                    <a href="images/Captura de Tela (95).png" class="popup-link" data-effect="fadeIn">
+                                        <img class="img-fluid" src="images/Captura de Tela (95).png" alt="Perfil">
+                                    </a>
+                                </div>
+
+                                <div class="swiper-slide">
+                                    <a href="images/Criar Lista.png" class="popup-link" data-effect="fadeIn">
+                                        <img class="img-fluid" src="images/Criar Lista.png" alt="Criar Lista">
+                                    </a>
+                                </div>
+
+                                <div class="swiper-slide">
+                                    <a href="images/Adicionando Produto.png" class="popup-link" data-effect="fadeIn">
+                                        <img class="img-fluid" src="images/Adicionando Produto.png"
+                                            alt="Adicionando Produto">
+                                    </a>
+                                </div>
+
+
+
+                                <div class="swiper-slide">
+                                    <a href="images/Adicionar e Remover.png" class="popup-link" data-effect="fadeIn">
+                                        <img class="img-fluid" src="images/Adicionar e Remover.png"
+                                            alt="Entrada e Baixas">
+                                    </a>
+                                </div>
+
+                                <div class="swiper-slide">
+                                    <a href="images/Captura de Tela (101).png" class="popup-link" data-effect="fadeIn">
+                                        <img class="img-fluid" src="images/Captura de Tela (101).png" alt="Visão">
+                                    </a>
+                                </div>
+
+
+
+                                <div class="swiper-slide">
+                                    <a href="images/Captura de Tela (105).png" class="popup-link" data-effect="fadeIn">
+                                        <img class="img-fluid" src="images/Captura de Tela (105).png"
+                                            alt="Produto Cadastrado">
+                                    </a>
+                                </div>
+
+
+
+                                <div class="swiper-slide">
+                                    <a href="images/Configurações.png" class="popup-link" data-effect="fadeIn">
+                                        <img class="img-fluid" src="images/Configurações.png" alt="Configurações">
+                                    </a>
+                                </div>
+
+
+
+
+
+
+                                <div class="swiper-slide">
+                                    <a href="images/Listas.png" class="popup-link" data-effect="fadeIn">
+                                        <img class="img-fluid" src="images/Listas.png" alt="Listas">
+                                    </a>
+                                </div>
+
+
+
+                                <div class="swiper-slide">
+                                    <a href="images/Movimentações.png" class="popup-link" data-effect="fadeIn">
+                                        <img class="img-fluid" src="images/Movimentações.png" alt="Movimentações">
+                                    </a>
+                                </div>
+
+                                <div class="swiper-slide">
+                                    <a href="images/Perfil.png" class="popup-link" data-effect="fadeIn">
+                                        <img class="img-fluid" src="images/Perfil.png" alt="Usuário">
+                                    </a>
+                                </div>
+
+                                <div class="swiper-slide">
+                                    <a href="images/Produtos2.png" class="popup-link" data-effect="fadeIn">
+                                        <img class="img-fluid" src="images/produtos2.png" alt="Lista de Produtos">
+                                    </a>
+                                </div>
+
+                                <div class="swiper-slide">
+                                    <a href="images/Registrando Baixa.png" class="popup-link" data-effect="fadeIn">
+                                        <img class="img-fluid" src="images/Registrando Baixa.png"
+                                            alt="Exportando Dados">
+                                    </a>
+                                </div>
+
+                            </div>
+
+
+                            <div class="swiper-button-next"></div>
+                            <div class="swiper-button-prev"></div>
+
+
+                        </div>
+                    </div>
+
+
+                </div>
+                
+            </div>
+            <br><br>
+            <DIV class="w3-center">
+              <a class="btn-solid-reg" href="https://stockitapp.netlify.app/index.html">VER APP</a>  
+            </DIV>
+            
+        </div>
+        
+    </div>
+
+
+
+    <!-- Prazos e Sugestões -->
+    <div class="basic-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-5">
+                    <div class="text-container2">
+                        <h2>Validades</h2>
+                        <p class="p-large">A seção de validade está parcialmente desenvolvida. Você conseguirá ver
+                            inividualmente a data de validade de todas as mercadorias do estoque cadastradas pelo App,
+                            podendo também
+                            utilizar filtros para encotrar as vencidas ou as que deseja. <br><br>
+                            Também é possível registrar somente a data de validade daquelas mercadorias que não entraram
+                            no estoque ou não foram cadastradas no aplicativo. <br><br>
+                        </p>
+                        <a class="btn-solid-lg" href="https://stockitadmins.netlify.app/validades.html">VER SEÇÃO</a>
+                        <a class="btn-solid-lg" href="documentacao.html"></i>DOCUMENTAÇÃO</a>
+                    </div>
+                </div>
+                
+                <div class="col-7">
+                    
+                    <div class="image-container">
+                        <img class="img-fluid adjust-padding" src="images/periodos.png" alt="tela de período e sugestões">
+                    </div>
+               
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Prazos -->
+    <div id="prazosanc" class="slider-1">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+
+
+                    <div class="container w3-center">
+                        <h2>ATUALIZAÇÕES EM DESENVOLVIMENTO</h2>
+                        <div class="p-heading p-large">Inserirmos na plataforma as ferramentas pertinentes para a
+                            gerência do App, mas tem muita coisa vindo ai...</div>
+                    </div>
+
+
+
+                    <!-- Slide de Informações -->
+                    <div class="slider-container">
+                        <div class="swiper-container card-slider">
+                            <div class="swiper-wrapper">
+
+                                <!-- Slide -->
+                                <div class="swiper-slide">
+                                    <div class="card">
+                                        <img class="card-image-2" src="images/sinal-vencimento.png" alt="Ícone de Calendário">
+                                        <div class="card-body">
+                                            <p class="testimonial-text">A seção de pendências está disponível porém não
+                                                finalizada. Em breve, o Administrador poderá criar sua próprias
+                                                pendências e compartilha-las com os usuários.</p>
+                                            <p class="testimonial-author">Pendências</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+
+                                <div class="swiper-slide">
+                                    <div class="card">
+                                        <img class="card-image-2" src="images/sinal-cheio.png"
+                                            alt="Ícone de Exclamação">
+                                        <div class="card-body">
+                                            <p class="testimonial-text">Em breve, será possível ver qual usuário
+                                                movimentou tal mercadoria e também qual foi a última vez que este
+                                                acessou o App.</p>
+                                            <p class="testimonial-author">Status</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- Slide -->
+                                <div class="swiper-slide">
+                                    <div class="card">
+                                        <img class="card-image-2" src="images/sinal-acabou.png"
+                                            alt="Ícone de Maleta">
+                                        <div class="card-body">
+                                            <p class="testimonial-text">Construiremos uma seção somente para contato e
+                                                controle dos forncedores da loja.</p>
+                                            <p class="testimonial-author">Central de Fornecedores</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- Slide -->
+                                <div class="swiper-slide">
+                                    <div class="card">
+                                        <img class="card-image-2" src="images/sinal-compras.png"
+                                            alt="Ícone de Chart">
+                                        <div class="card-body">
+                                            <p class="testimonial-text">Escolha a partir de qual quantidade o aplicativo
+                                                deve te sugerir um contato com o fornecedor.</p>
+                                            <p class="testimonial-author">Contate o Fornecedor</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- Slide -->
+                                <div class="swiper-slide">
+                                    <div class="card">
+                                        <img class="card-image-2" src="images/sinal-oferta.png"
+                                            alt="Ícone de Bussola">
+                                        <div class="card-body">
+                                            <p class="testimonial-text">Uma página dedicada para localização e cadastros
+                                                de mercadorias no ambiente 3D do estoque virtual também será construida.
+                                            </p>
+                                            <p class="testimonial-author">Localização no Estoque Virtual</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                                <!-- Setas Dos Slides-->
+                                <div class="swiper-button-next"></div>
+                                <div class="swiper-button-prev"></div>
+
+
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Números  -->
+        <div class="counter">
+            <div class="container">
+                <div class="w3-padding-16">
+                    <hr class="w3-aqua">
+                </div>
+                <div class="row">
+                    <div class="container padding-contador">
+                        <div class="container w3-center">
+                            <h2>DADOS</h2>
+                            <div class="p-heading p-large">Métricas do Desenvolvimento da Plataforma e seus
+                                complementos:</div>
+                        </div>
+                    </div>
+                    <div class="col-lg-12">
+                        <!-- Contador -->
+                        <div class="p-heading p-large"><STRONG>Dados atuais</STRONG></div>
+                        <div id="counter">
+                            <div class="cell">
+                                <div  class="counter-value number-count" data-count="14776">1</div>
+                                <p class="counter-info">Linhas de Códigos HTML/CSS</p>
+                            </div>
+
+                            <div class="cell">
+                                <div class="counter-value number-count" data-count="5">1</div>
+                                <p class="counter-info">Seção em Desenvolvimento</p>
+                            </div>
+                            <div class="cell">
+                                <div class="counter-value number-count" data-count="4137">1</div>
+                                <p class="counter-info">Linhas de Códigos Site</p>
+                            </div>
+                            <div class="cell">
+                                <div class="counter-value number-count" data-count="30">1</div>
+                                <p class="counter-info">Seções Desenvolvidas</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="basic-4">
+            <div id="sugestoesanc" class="container">
+                <div class="row">
+                    <div class="col-8">
+                        <div class="image-container">
+                            <img class="img-fluid padding-contador" src="images/prazos-info.png"
+                                alt="tela de período e sugestões">
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="text-container2">
+                            <h2>Lembretes e Perfil</h2>
+                            <p class="p-large">Você consegue configurar o seu perfil pessoal de Administrador dentro da
+                                plataforma. Atualizações futuras irão colocar os dados de contato e informações do seu
+                                perfil em disposição dos fornecedores para facilidar o processo de logística.
+                                <br><br>
+                                A seção de Lembretes dentro da plataforma também está sendo desenvolvida com a
+                                finalidade de prover uma possibilidade de organização pessoal maior por parte do
+                                administrador. Essa seção poderá ser usada tanto para assuntos relacionados ao comércio
+                                quanto para outros assuntos laborais.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Contato -->
+    <div id="contact" class="form">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h2>CONTATO</h2>
+                    <ul class="list-unstyled li-space-lg">
+                        <li class="address">Tire suas dúvidas com a equipe de desenvolvedores.</li>
+                        <li><i class="fas fa-user-alt"></i>Felipe Vido - Erique Abreu - Laura Paiva</li>
+                        <li><i class="fas fa-phone"></i><a class="blue" href="tel:55014998854798">+55 (14)
+                                99885-4768</a>
+                        </li>
+                        <li><i class="fas fa-envelope"></i><a class="blue"
+                                href="mailto:grupostockit@gmail.com">GrupoStockIt@gmail.com</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-6 offset-lg-3">
+
+                    <!-- Formulário para Contato -->
+                    <form id="contactForm" data-toggle="validator" data-focus="false">
+                        <div class="form-group">
+                            <input type="text" class="form-control-input" id="cname" required>
+                            <label class="label-control" for="cname">Seu Nome</label>
+                            <div class="help-block with-errors"></div>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" class="form-control-input" id="cemail" required>
+                            <label class="label-control" for="cemail">Seu Email</label>
+                            <div class="help-block with-errors"></div>
+                        </div>
+                        <div class="form-group">
+                            <textarea class="form-control-textarea" id="cmessage" required></textarea>
+                            <label class="label-control" for="cmessage">Sua Dúvida</label>
+                            <div class="help-block with-errors"></div>
+                        </div>
+                        <div class="form-group checkbox">
+                            <input type="checkbox" id="cterms" value="Agreed-to-Terms" required>Afirmo que li e tenho
+                            ciência dos termos de <a href="privacy-policy.html">Documentação</a> e <a
+                                href="terms-conditions.html">Envolvidos</a> no desenvolvimento do App + Site.
+                            <div class="help-block with-errors"></div>
+                        </div>
+                        <div class="form-group">
+                            <button type="submit" class="form-control-submit-button">ENVIAR MENSAGEM</button>
+                        </div>
+                        <div class="form-message">
+                            <div id="cmsgSubmit" class="h3 text-center hidden"></div>
+                        </div>
+                    </form>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Rodapé -->
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="footer-col">
+                        <h4>Projeto Stock It</h4>
+                        <p>Site desenvolvido para apresentação do projeto mediante aos requerimentos da disciplina
+                            <strong>TCC (ETEC - RODRIGUES DE ABREU).</strong>
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="footer-col middle">
+                        <h4>Adicionais</h4>
+                        <ul class="list-unstyled li-space-lg">
+                            <li class="media">
+                                <i class="fas fa-square"></i>
+                                <div class="media-body">Instituição: <a class="turquoise"
+                                        href="http://www.etecbauru.com.br">Centro Paula Souza</a></div>
+                            </li>
+                            <li class="media">
+                                <i class="fas fa-square"></i>
+                                <div class="media-body">Perfis: <a class="turquoise"
+                                        href="https://www.instagram.com/felipeviido/">Felipe Vido</a>, <a
+                                        class="turquoise" href="https://www.instagram.com/alaurapaiva/">Laura Paiva</a>,
+                                    <a class="turquoise" href="https://www.instagram.com/eriq_mart/">Erique Abreu</a>.
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="footer-col last">
+                        <h4>Redes Sociais</h4>
+                        <span title="Inativo" class="fa-stack">
+                            <a href="#vazio">
+                                <i class="fas fa-circle fa-stack-2x"></i>
+                                <i class="fab fa-facebook-f fa-stack-1x"></i>
+                            </a>
+                        </span>
+                        <span title="Inativo" class="fa-stack">
+                            <a href="#vazio">
+                                <i class="fas fa-circle fa-stack-2x"></i>
+                                <i class="fab fa-twitter fa-stack-1x"></i>
+                            </a>
+                        </span>
+                        <span title="Inativo" class="fa-stack">
+                            <a href="#vazio">
+                                <i class="fas fa-circle fa-stack-2x"></i>
+                                <i class="fab fa-google-plus-g fa-stack-1x"></i>
+                            </a>
+                        </span>
+                        <span title="Inativo" class="fa-stack">
+                            <a href="#vazio">
+                                <i class="fas fa-circle fa-stack-2x"></i>
+                                <i class="fab fa-instagram fa-stack-1x"></i>
+                            </a>
+                        </span>
+                        <span title="Inativo" class="fa-stack">
+                            <a href="#vazio">
+                                <i class="fas fa-circle fa-stack-2x"></i>
+                                <i class="fab fa-linkedin-in fa-stack-1x"></i>
+                            </a>
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- Direitos -->
+    <div class="copyright">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <p class="p-small">Copyright © Stock It - Para Fins Institucionais. Apoio <a
+                            href="https://www.flowcode.com/page/technowarecompany">TechnoWare Company</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Scripts -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.easing.min.js"></script>
+    <script src="js/swiper.min.js"></script>
+    <script src="js/jquery.magnific-popup.js"></script>
+    <script src="js/morphext.min.js"></script>
+    <script src="js/validator.min.js"></script>
+    <script src="js/scripts.js"></script>
+</body>
+
+</html>
